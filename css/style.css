@@ -1,0 +1,151 @@
+*{
+
+font-family: 'Tajawal', sans-serif;
+text-decoration: none;
+list-style-type: none;
+}
+body{
+  background-color: #ededf5;
+}
+/* <!-- start header div --> */
+header{
+width:90%;
+height:60px;
+background-color: #fff;
+margin:10px auto;
+}
+header input{
+  float: right;
+  margin:10px;
+  padding: 10px;
+  width: 300px;
+  margin-right: 20px;
+  text-align: right;
+  font-size:15px;
+  border:1px solid #f2f2f2;
+}
+header button{
+  padding:10px;
+  float: right;
+  margin:10px;
+  background-color: #216dd1;
+  color:#fff;
+  border-radius: 5px;
+  border:1px solid #216dd1 ;
+}
+/* <!-- end header div --> */
+
+/* start div2 css */
+.div2{
+  width:16%;
+  height:410px;
+  background-color: #fff;
+  float: right;
+  position:static;
+  background-image: url(../images/men.jpg);
+  background-repeat: no-repeat;
+  background-position:  center 0px;
+  margin-right: 70px
+}
+.div2 li a{
+  color:#6e7379;
+}
+.div2 ul {
+  margin-top: 200px;
+}
+.div2 ul li {
+  margin: 5px;
+  text-align: right;
+  color:#6e7379;
+
+}
+/* end div2 css */
+
+/* start contaner */
+.contaner{
+  width:970px;
+  height:650px;
+  margin-left:70px;
+  background-color:#fff;
+  position: relative;
+
+}
+/* start div1 css */
+
+.div1{
+text-align: right;
+ color:#6e7379;
+ margin-top: 20px;
+ width: 100%;
+ position: absolute;
+ margin-bottom: 20px
+
+}
+.div1 a{
+  margin: 10px;
+  color:#6e7379;
+
+}
+span{
+  color: #fff
+}
+.activ {
+background-color: red;
+padding: 5px;
+}
+.contaner .hh{
+  float: right;
+  font-size: 30px;
+  margin: 15px;
+  color: #6e7379;
+  display:inline;
+  margin-top: 10px
+}
+.oss{
+  display:flex;
+  margin: 30px 30px ;
+  padding: 20px;
+
+
+}
+.divv{
+  flex:1;
+  text-align:right;
+  /* float: right; */
+}
+.divv input{
+  height:30px;
+  width:250px;
+  border: 1px solid #6e7379;
+
+}
+select{
+  height:30px;
+  width:250px;
+  border: 1px solid #6e7379;
+}
+.divv p{
+  color:#6e7379;
+}
+.add{
+  background-color: #236dd1;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  float: right;
+  margin-right: 50px;
+    margin-top: -30px;
+
+}
+.export{
+  background-color: #fe3a7a;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  float: right;
+  margin-right: 5px;
+  margin-top: -30px;
+
+
+}
+/* end contaner */
